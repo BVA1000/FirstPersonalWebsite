@@ -1,0 +1,138 @@
+/* Media Screen Width*/
+
+@media (max-width: 2000px) {
+    body {
+        background-color: rgb(94, 208, 212);
+    }
+}
+
+/* Website Header */
+
+header {
+    background-color: rgb(0, 0, 0);
+    color:rgb(94, 208, 212);
+    padding: 4px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    color:rgb(0, 0, 0);
+    padding: 15px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+#orange {
+    color: orange;
+    padding: 1px;
+}
+
+/* Profile Image */
+
+@media (max-width: 576px) {
+    img {
+        display: flex;
+        width: 250px;
+        height: auto;
+    }
+}
+
+img {
+    border-radius: 50%;
+    width: 500px;
+    height: auto;
+    padding: 15px;
+}
+
+/* Skills List and Anchor Tag Icons */
+
+ul {
+    font-size: 26px;
+}
+
+i {
+    font-size: 60px;
+}
+
+.icon {
+    font-size: 60px;
+}
+
+.icon-large {
+    font-size: 80px;
+}
+
+#linklist {
+    padding: 15px;
+}
+
+#skills {
+    color:rgb(0, 0, 0);
+}
+
+#github {
+    color:rgb(0, 0, 0);
+}
+
+#linkedin {
+    color:rgb(5, 98, 204);
+}
+
+#facebook {
+    color:rgb(1, 69, 148);
+}
+
+/* Dynamic GitHub Repos List */
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: orange;
+    border-style: hidden;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 15px;
+}
+
+.list-group-items {
+    color:rgb(0, 0, 0);
+}
+
+/* Website Footer and Email Icon */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: orange;
+    height: 50px;
+    padding: 7px;
+}
+
+#at {
+    font-size: 30px;
+}
+
+/* Sticky Footer Settings */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    height: 50px;
+    margin-top: -50px;
+}
